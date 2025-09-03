@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { Menu, X, Heart, Instagram, Facebook, Mail, Phone, MapPin, Clock, Star, Sparkles } from "lucide-react";
+import { useState, useEffect } from "react";
  
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
